@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Model Evaluation Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; border: 1px solid #ddd; overflow-x: auto; }
+        img { max-width: 100%; height: auto; display: block; margin-top: 20px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <h1>Random Forest Model Evaluation</h1>
+
+    <h2>Classification Report</h2>
+    <pre>              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      8515
+           1       1.00      1.00      1.00      8470
+
+    accuracy                           1.00     16985
+   macro avg       1.00      1.00      1.00     16985
+weighted avg       1.00      1.00      1.00     16985
+</pre>
+
+    <h2>Confusion Matrix</h2>
+    <img src="confusion_matrix.png" alt="Confusion Matrix">
+
+</body>
+</html>
